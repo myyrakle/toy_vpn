@@ -1,6 +1,6 @@
 use std::{
     net::{SocketAddrV4, UdpSocket},
-    sync::Mutex,
+    sync::{Mutex, MutexGuard},
 };
 
 pub struct Peer {

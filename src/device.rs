@@ -1,4 +1,7 @@
-use std::{io, net::UdpSocket};
+use std::{
+    io,
+    net::{SocketAddr, UdpSocket},
+};
 
 use tun_tap::Iface;
 
